@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D6F9EC818B27C4C00294D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6F9EC718B27C4C00294D08 /* Foundation.framework */; };
+		8D6F9ECA18B27C4C00294D08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6F9EC918B27C4C00294D08 /* CoreGraphics.framework */; };
+		8D6F9ECC18B27C4C00294D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6F9ECB18B27C4C00294D08 /* UIKit.framework */; };
+		8D6F9ECE18B27C4C00294D08 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6F9ECD18B27C4C00294D08 /* SpriteKit.framework */; };
+		8D6F9ED418B27C4C00294D08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9ED218B27C4C00294D08 /* InfoPlist.strings */; };
+		8D6F9ED618B27C4C00294D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6F9ED518B27C4C00294D08 /* main.m */; };
+		8D6F9EDA18B27C4C00294D08 /* bmwAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6F9ED918B27C4C00294D08 /* bmwAppDelegate.m */; };
+		8D6F9EDD18B27C4C00294D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9EDB18B27C4C00294D08 /* Main.storyboard */; };
+		8D6F9EE018B27C4C00294D08 /* bmwViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6F9EDF18B27C4C00294D08 /* bmwViewController.m */; };
+		8D6F9EE318B27C4C00294D08 /* bmwMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6F9EE218B27C4C00294D08 /* bmwMyScene.m */; };
+		8D6F9EE518B27C4C00294D08 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9EE418B27C4C00294D08 /* Spaceship.png */; };
+		8D6F9EE718B27C4C00294D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9EE618B27C4C00294D08 /* Images.xcassets */; };
+		8D6F9EEE18B27C4C00294D08 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6F9EED18B27C4C00294D08 /* XCTest.framework */; };
+		8D6F9EEF18B27C4C00294D08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6F9EC718B27C4C00294D08 /* Foundation.framework */; };
+		8D6F9EF018B27C4C00294D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6F9ECB18B27C4C00294D08 /* UIKit.framework */; };
+		8D6F9EF818B27C4C00294D08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9EF618B27C4C00294D08 /* InfoPlist.strings */; };
+		8D6F9EFA18B27C4C00294D08 /* Sprite_TesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6F9EF918B27C4C00294D08 /* Sprite_TesterTests.m */; };
+		8D6F9F0E18B2866500294D08 /* seattle3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9F0D18B2866500294D08 /* seattle3.png */; };
+		8D6F9F1718B28FDE00294D08 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9F1518B28FDE00294D08 /* Explosion.sks */; };
+		8D6F9F1818B28FDE00294D08 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9F1618B28FDE00294D08 /* spark.png */; };
+		8D6F9F1A18B2B83300294D08 /* smallFlappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9F1918B2B83300294D08 /* smallFlappy.png */; };
+		8D6F9F1C18B2BC2E00294D08 /* cleanMega.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9F1B18B2BC2E00294D08 /* cleanMega.png */; };
+		8D6F9F2118B2D77600294D08 /* bmwMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6F9F2018B2D77600294D08 /* bmwMainMenu.m */; };
+		8D6F9F2318B2EE9E00294D08 /* baron.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9F2218B2EE9E00294D08 /* baron.png */; };
+		8D6F9F2918B2FF4900294D08 /* connor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6F9F2818B2FF4900294D08 /* connor.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D6F9EF118B27C4C00294D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D6F9EBC18B27C4C00294D08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D6F9EC318B27C4C00294D08;
+			remoteInfo = "Sprite Tester";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D6F9EC418B27C4C00294D08 /* Sprite Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sprite Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6F9EC718B27C4C00294D08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D6F9EC918B27C4C00294D08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D6F9ECB18B27C4C00294D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D6F9ECD18B27C4C00294D08 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		8D6F9ED118B27C4C00294D08 /* Sprite Tester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sprite Tester-Info.plist"; sourceTree = "<group>"; };
+		8D6F9ED318B27C4C00294D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D6F9ED518B27C4C00294D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D6F9ED718B27C4C00294D08 /* Sprite Tester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sprite Tester-Prefix.pch"; sourceTree = "<group>"; };
+		8D6F9ED818B27C4C00294D08 /* bmwAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bmwAppDelegate.h; sourceTree = "<group>"; };
+		8D6F9ED918B27C4C00294D08 /* bmwAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bmwAppDelegate.m; sourceTree = "<group>"; };
+		8D6F9EDC18B27C4C00294D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D6F9EDE18B27C4C00294D08 /* bmwViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bmwViewController.h; sourceTree = "<group>"; };
+		8D6F9EDF18B27C4C00294D08 /* bmwViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bmwViewController.m; sourceTree = "<group>"; };
+		8D6F9EE118B27C4C00294D08 /* bmwMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bmwMyScene.h; sourceTree = "<group>"; };
+		8D6F9EE218B27C4C00294D08 /* bmwMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bmwMyScene.m; sourceTree = "<group>"; };
+		8D6F9EE418B27C4C00294D08 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		8D6F9EE618B27C4C00294D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D6F9EEC18B27C4C00294D08 /* Sprite TesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sprite TesterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6F9EED18B27C4C00294D08 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8D6F9EF518B27C4C00294D08 /* Sprite TesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sprite TesterTests-Info.plist"; sourceTree = "<group>"; };
+		8D6F9EF718B27C4C00294D08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D6F9EF918B27C4C00294D08 /* Sprite_TesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sprite_TesterTests.m; sourceTree = "<group>"; };
+		8D6F9F0D18B2866500294D08 /* seattle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seattle3.png; sourceTree = "<group>"; };
+		8D6F9F1518B28FDE00294D08 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		8D6F9F1618B28FDE00294D08 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		8D6F9F1918B2B83300294D08 /* smallFlappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallFlappy.png; sourceTree = "<group>"; };
+		8D6F9F1B18B2BC2E00294D08 /* cleanMega.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cleanMega.png; sourceTree = "<group>"; };
+		8D6F9F1F18B2D77600294D08 /* bmwMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmwMainMenu.h; sourceTree = "<group>"; };
+		8D6F9F2018B2D77600294D08 /* bmwMainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bmwMainMenu.m; sourceTree = "<group>"; };
+		8D6F9F2218B2EE9E00294D08 /* baron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baron.png; sourceTree = "<group>"; };
+		8D6F9F2818B2FF4900294D08 /* connor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connor.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D6F9EC118B27C4C00294D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6F9ECA18B27C4C00294D08 /* CoreGraphics.framework in Frameworks */,
+				8D6F9ECC18B27C4C00294D08 /* UIKit.framework in Frameworks */,
+				8D6F9ECE18B27C4C00294D08 /* SpriteKit.framework in Frameworks */,
+				8D6F9EC818B27C4C00294D08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6F9EE918B27C4C00294D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6F9EEE18B27C4C00294D08 /* XCTest.framework in Frameworks */,
+				8D6F9EF018B27C4C00294D08 /* UIKit.framework in Frameworks */,
+				8D6F9EEF18B27C4C00294D08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D6F9EBB18B27C4C00294D08 = {
+			isa = PBXGroup;
+			children = (
+				8D6F9F2818B2FF4900294D08 /* connor.png */,
+				8D6F9F1518B28FDE00294D08 /* Explosion.sks */,
+				8D6F9F1618B28FDE00294D08 /* spark.png */,
+				8D6F9ECF18B27C4C00294D08 /* Sprite Tester */,
+				8D6F9EF318B27C4C00294D08 /* Sprite TesterTests */,
+				8D6F9EC618B27C4C00294D08 /* Frameworks */,
+				8D6F9EC518B27C4C00294D08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D6F9EC518B27C4C00294D08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D6F9EC418B27C4C00294D08 /* Sprite Tester.app */,
+				8D6F9EEC18B27C4C00294D08 /* Sprite TesterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D6F9EC618B27C4C00294D08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D6F9EC718B27C4C00294D08 /* Foundation.framework */,
+				8D6F9EC918B27C4C00294D08 /* CoreGraphics.framework */,
+				8D6F9ECB18B27C4C00294D08 /* UIKit.framework */,
+				8D6F9ECD18B27C4C00294D08 /* SpriteKit.framework */,
+				8D6F9EED18B27C4C00294D08 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D6F9ECF18B27C4C00294D08 /* Sprite Tester */ = {
+			isa = PBXGroup;
+			children = (
+				8D6F9ED818B27C4C00294D08 /* bmwAppDelegate.h */,
+				8D6F9ED918B27C4C00294D08 /* bmwAppDelegate.m */,
+				8D6F9EDB18B27C4C00294D08 /* Main.storyboard */,
+				8D6F9EDE18B27C4C00294D08 /* bmwViewController.h */,
+				8D6F9EDF18B27C4C00294D08 /* bmwViewController.m */,
+				8D6F9EE118B27C4C00294D08 /* bmwMyScene.h */,
+				8D6F9EE218B27C4C00294D08 /* bmwMyScene.m */,
+				8D6F9F2218B2EE9E00294D08 /* baron.png */,
+				8D6F9F1F18B2D77600294D08 /* bmwMainMenu.h */,
+				8D6F9F2018B2D77600294D08 /* bmwMainMenu.m */,
+				8D6F9F1B18B2BC2E00294D08 /* cleanMega.png */,
+				8D6F9F1918B2B83300294D08 /* smallFlappy.png */,
+				8D6F9F0D18B2866500294D08 /* seattle3.png */,
+				8D6F9EE418B27C4C00294D08 /* Spaceship.png */,
+				8D6F9EE618B27C4C00294D08 /* Images.xcassets */,
+				8D6F9ED018B27C4C00294D08 /* Supporting Files */,
+			);
+			path = "Sprite Tester";
+			sourceTree = "<group>";
+		};
+		8D6F9ED018B27C4C00294D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6F9ED118B27C4C00294D08 /* Sprite Tester-Info.plist */,
+				8D6F9ED218B27C4C00294D08 /* InfoPlist.strings */,
+				8D6F9ED518B27C4C00294D08 /* main.m */,
+				8D6F9ED718B27C4C00294D08 /* Sprite Tester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D6F9EF318B27C4C00294D08 /* Sprite TesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D6F9EF918B27C4C00294D08 /* Sprite_TesterTests.m */,
+				8D6F9EF418B27C4C00294D08 /* Supporting Files */,
+			);
+			path = "Sprite TesterTests";
+			sourceTree = "<group>";
+		};
+		8D6F9EF418B27C4C00294D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D6F9EF518B27C4C00294D08 /* Sprite TesterTests-Info.plist */,
+				8D6F9EF618B27C4C00294D08 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D6F9EC318B27C4C00294D08 /* Sprite Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6F9EFD18B27C4C00294D08 /* Build configuration list for PBXNativeTarget "Sprite Tester" */;
+			buildPhases = (
+				8D6F9EC018B27C4C00294D08 /* Sources */,
+				8D6F9EC118B27C4C00294D08 /* Frameworks */,
+				8D6F9EC218B27C4C00294D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sprite Tester";
+			productName = "Sprite Tester";
+			productReference = 8D6F9EC418B27C4C00294D08 /* Sprite Tester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D6F9EEB18B27C4C00294D08 /* Sprite TesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6F9F0018B27C4C00294D08 /* Build configuration list for PBXNativeTarget "Sprite TesterTests" */;
+			buildPhases = (
+				8D6F9EE818B27C4C00294D08 /* Sources */,
+				8D6F9EE918B27C4C00294D08 /* Frameworks */,
+				8D6F9EEA18B27C4C00294D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D6F9EF218B27C4C00294D08 /* PBXTargetDependency */,
+			);
+			name = "Sprite TesterTests";
+			productName = "Sprite TesterTests";
+			productReference = 8D6F9EEC18B27C4C00294D08 /* Sprite TesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D6F9EBC18B27C4C00294D08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bmw;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Byte Meets World";
+				TargetAttributes = {
+					8D6F9EEB18B27C4C00294D08 = {
+						TestTargetID = 8D6F9EC318B27C4C00294D08;
+					};
+				};
+			};
+			buildConfigurationList = 8D6F9EBF18B27C4C00294D08 /* Build configuration list for PBXProject "Sprite Tester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D6F9EBB18B27C4C00294D08;
+			productRefGroup = 8D6F9EC518B27C4C00294D08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D6F9EC318B27C4C00294D08 /* Sprite Tester */,
+				8D6F9EEB18B27C4C00294D08 /* Sprite TesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D6F9EC218B27C4C00294D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6F9F1A18B2B83300294D08 /* smallFlappy.png in Resources */,
+				8D6F9ED418B27C4C00294D08 /* InfoPlist.strings in Resources */,
+				8D6F9EE718B27C4C00294D08 /* Images.xcassets in Resources */,
+				8D6F9F0E18B2866500294D08 /* seattle3.png in Resources */,
+				8D6F9F2318B2EE9E00294D08 /* baron.png in Resources */,
+				8D6F9EE518B27C4C00294D08 /* Spaceship.png in Resources */,
+				8D6F9F1818B28FDE00294D08 /* spark.png in Resources */,
+				8D6F9EDD18B27C4C00294D08 /* Main.storyboard in Resources */,
+				8D6F9F2918B2FF4900294D08 /* connor.png in Resources */,
+				8D6F9F1C18B2BC2E00294D08 /* cleanMega.png in Resources */,
+				8D6F9F1718B28FDE00294D08 /* Explosion.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6F9EEA18B27C4C00294D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6F9EF818B27C4C00294D08 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D6F9EC018B27C4C00294D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6F9ED618B27C4C00294D08 /* main.m in Sources */,
+				8D6F9EE318B27C4C00294D08 /* bmwMyScene.m in Sources */,
+				8D6F9EDA18B27C4C00294D08 /* bmwAppDelegate.m in Sources */,
+				8D6F9F2118B2D77600294D08 /* bmwMainMenu.m in Sources */,
+				8D6F9EE018B27C4C00294D08 /* bmwViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6F9EE818B27C4C00294D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6F9EFA18B27C4C00294D08 /* Sprite_TesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D6F9EF218B27C4C00294D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D6F9EC318B27C4C00294D08 /* Sprite Tester */;
+			targetProxy = 8D6F9EF118B27C4C00294D08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D6F9ED218B27C4C00294D08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D6F9ED318B27C4C00294D08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D6F9EDB18B27C4C00294D08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D6F9EDC18B27C4C00294D08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D6F9EF618B27C4C00294D08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D6F9EF718B27C4C00294D08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D6F9EFB18B27C4C00294D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D6F9EFC18B27C4C00294D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D6F9EFE18B27C4C00294D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sprite Tester/Sprite Tester-Prefix.pch";
+				INFOPLIST_FILE = "Sprite Tester/Sprite Tester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D6F9EFF18B27C4C00294D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sprite Tester/Sprite Tester-Prefix.pch";
+				INFOPLIST_FILE = "Sprite Tester/Sprite Tester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8D6F9F0118B27C4C00294D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sprite Tester.app/Sprite Tester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sprite Tester/Sprite Tester-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sprite TesterTests/Sprite TesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8D6F9F0218B27C4C00294D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sprite Tester.app/Sprite Tester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sprite Tester/Sprite Tester-Prefix.pch";
+				INFOPLIST_FILE = "Sprite TesterTests/Sprite TesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D6F9EBF18B27C4C00294D08 /* Build configuration list for PBXProject "Sprite Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6F9EFB18B27C4C00294D08 /* Debug */,
+				8D6F9EFC18B27C4C00294D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D6F9EFD18B27C4C00294D08 /* Build configuration list for PBXNativeTarget "Sprite Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6F9EFE18B27C4C00294D08 /* Debug */,
+				8D6F9EFF18B27C4C00294D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D6F9F0018B27C4C00294D08 /* Build configuration list for PBXNativeTarget "Sprite TesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6F9F0118B27C4C00294D08 /* Debug */,
+				8D6F9F0218B27C4C00294D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D6F9EBC18B27C4C00294D08 /* Project object */;
+}
